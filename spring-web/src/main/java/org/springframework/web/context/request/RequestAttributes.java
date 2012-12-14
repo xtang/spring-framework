@@ -78,8 +78,8 @@ public interface RequestAttributes {
 	 * Set the value for the scoped attribute of the given name,
 	 * replacing an existing value (if any).
 	 * @param name the name of the attribute
-	 * @param scope the scope identifier
 	 * @param value the value for the attribute
+	 * @param scope the scope identifier
 	 */
 	void setAttribute(String name, Object value, int scope);
 
